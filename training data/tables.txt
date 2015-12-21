@@ -1,0 +1,13 @@
+training_TABLE_aapl.csv
+training_TABLE_dia.csv
+training_TABLE_dis.csv
+training_TABLE_f.csv
+training_TABLE_googl.csv
+training_TABLE_ibm.csv
+training_TABLE_ko.csv
+training_TABLE_nyt.csv
+training_TABLE_sso.csv
+training_TABLE_ssys.csv
+training_TABLE_tm.csv
+training_TABLE_tri.csv
+training_TABLE_vz.csv
