@@ -1,6 +1,6 @@
 function [ X ] = getPortfolio( index )
 
-parent_dir = 'C:\Users\Public\Documents\Stephy files\NJIT\Fall 2015\Project\training\';
+parent_dir = 'training directory';
 pdfportfolio1 = strcat(parent_dir,'aapl.csv'); 
 aapl = csvread(pdfportfolio1, 1,1); 
 pdfportfolio2 = strcat(parent_dir,'dia.csv'); 

@@ -31,10 +31,10 @@ def getRateFromVector(vector):
         
         
 def generatePortfolioAndPriceTables():
-    PARENT_DIRECTORY = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\";
-    TABLE_DIRECTORY = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\tables.txt";
-    PORTFOLIO_PATH = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\portfolio.csv";
-    PORTFOLIO_PRICE_PATH = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\averageprice.csv";
+    PARENT_DIRECTORY = r"PARENT_DIRECTORY";
+    TABLE_DIRECTORY = r"TABLE_DIRECTORY";
+    PORTFOLIO_PATH = r"PORTFOLIO_PATH";
+    PORTFOLIO_PRICE_PATH = r"PORTFOLIO_PRICE_PATH";
     
     
     TABLES = [];   
@@ -88,12 +88,12 @@ def generatePortfolioAndPriceTables():
     
     
     
-PARENT_DIRECTORY = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\";
-TABLE_DIRECTORY = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\tables.txt";
-PORTFOLIO_PATH = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\portfolio.csv";
-PORTFOLIO_PRICE_PATH = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\averageprice.csv";
-TRAINING_DIRECTORY = r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\testing\\";
-tt = r"C:\Users\Public\Documents\Stephy files\NJIT\Fall 2015\Project\training"
+PARENT_DIRECTORY = r"parent directory";
+TABLE_DIRECTORY = r"path to table text file";
+PORTFOLIO_PATH = r"path to portfolio csv";
+PORTFOLIO_PRICE_PATH = r"path to average price csv";
+TRAINING_DIRECTORY = r"path to testing directory";
+tt = r"path to training directory"
 
 TABLES = [];   
 tabs = []

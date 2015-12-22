@@ -4,7 +4,7 @@
 #include <string>
 
 
-extern const string		TABLES = "C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\tables.txt";
+extern const string		TABLES = "<path_to_list_of_tables>";
 
 /// <summary>
 /// Generate probability function tables for each table in the text file containing the list of table data paths. 

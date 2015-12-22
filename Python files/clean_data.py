@@ -77,7 +77,7 @@ class Stock():
         return int(_date.split('-')[2]);
 
 def CleanData(setting):
-    f =  r"C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\";
+    f =  r"project folder";
     final_Dir = f +"\\"+setting;
     files_in_dir =  os.listdir(final_Dir);
     print files_in_dir
@@ -108,7 +108,7 @@ def CleanData(setting):
     return ls;
 
 
-def generateTableList(fn = "C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\"):
+def generateTableList(fn = "trainingfolder"):
     _files = os.listdir(fn);
     tables = [];
     for i in range(0, len(_files)):
@@ -128,5 +128,5 @@ def CLEAN(fn, settin = 'training'):
     print "__________________Data Cleaning complete_______________________";
 
 
-f = "C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\testing\\";
+f = "testing folder";
 CLEAN(f, 'testing');

@@ -2,7 +2,7 @@ function [ XX ] = ENTROPORTFOLIO( control_parameter, M)
     
 
     
-    rate_portfolio = 'C:\Users\Public\Documents\Stephy files\NJIT\Fall 2015\Project\training\portfolio.csv';
+    rate_portfolio = 'path to portfolio csv';
     X = csvread(rate_portfolio,1,1);
     rowcount = size(X);
     colcount = rowcount(1,2);
