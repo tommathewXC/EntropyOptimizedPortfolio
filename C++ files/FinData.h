@@ -12,8 +12,8 @@ using namespace			std;
 using namespace			boost;
 
 extern const int		R = 1260;
-extern const string		TRAINING_DIR = "C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\training\\";
-extern const string		TESTING_DIR = "C:\\Users\\Public\\Documents\\Stephy files\\NJIT\\Fall 2015\\Project\\testing\\";
+extern const string		TRAINING_DIR = "<directory to training drive>";
+extern const string		TESTING_DIR = "<directory to testing drive>";
 extern bool				CONSOLE_PRINT = false;
 int						roundDownNear(double a, int b);
 void					getPDFs();
