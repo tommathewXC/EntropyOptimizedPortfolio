@@ -45,7 +45,7 @@ The programmatic process is a follows:
 
 ## How are we doing this?
 
-1.	From [here](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/Python%20files, run the 
+1.	From [here](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/Python%20files), run the 
 	run main.py. Note that the cleaning process will create a text file with the tabulated stock data. These
 	tables will be used in the next part.
 2.	Compile [this](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/C%2B%2B%20files) code, 
@@ -79,11 +79,11 @@ Run the "entropylp.m" to get the following plots
 	
 	
 **The performance of two portfolios with two different entropy constraints. **
-![alt text](https://github.com/tommathewXC/Forex_Processing_Prototype/blob/master/daily.png "Daily data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/portfoliocomparison.png"Daily data")
 
 **The average return rate for different entropy constraint.**
-![alt text](https://github.com/tommathewXC/Forex_Processing_Prototype/blob/master/daily.png "Hourly data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/varyingentropyportfolio.png "Hourly data")
 
 
 **Performance over 50 months at a good entropy constraint**
-![alt text](https://github.com/tommathewXC/Forex_Processing_Prototype/blob/master/miunte.png "Minute Data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/bestportfoliocomparison.png "Minute Data")
