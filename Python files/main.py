@@ -7,17 +7,14 @@ Created on Sun Nov 29 18:50:38 2015
 
 import clean_data as CD
 import generate_portfolio as PF;
-import subprocess;
-
-PDF_GENERATOR_PATH = "path to cleaner exe"
-
-
-def generatProbabilities():
-    proc = subprocess.Popen(PDF_GENERATOR_PATH, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = proc.communicate()
-    return stdout;
 
 
 #create tables from google finance data
-CD.CLEAN();
+
+f = "training directory";
+CD.CLEAN(f);
+
+f = "testing directory";
+
+CD.CLEAN(f, 'testing');
 
