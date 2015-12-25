@@ -78,12 +78,12 @@ The programmatic process is a follows:
 Run the "entropylp.m" to get the following plots
 	
 	
-**The performance of two portfolios with two different entropy constraints. **
-![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/portfoliocomparison.png"Daily data")
+The performance of two portfolios with two different entropy constraints. 
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/portfoliocomparison.png)
 
 **The average return rate for different entropy constraint.**
-![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/varyingentropyportfolio.png "Hourly data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/varyingentropyconstraint.png "Hourly data")
 
 
 **Performance over 50 months at a good entropy constraint**
-![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/tree/master/pictures/bestportfoliocomparison.png "Minute Data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/bestportfolio.png "Minute Data")
