@@ -82,8 +82,12 @@ The performance of two portfolios with two different entropy constraints.
 ![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/portfoliocomparison.png)
 
 **The average return rate for different entropy constraint.**
-![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/varyingentropyconstraint.png "Hourly data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/varyingentropyconstraint.png "Constraint comparison")
 
 
 **Performance over 50 months at a good entropy constraint**
-![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/bestportfolio.png "Minute Data")
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/bestportfolio.png "Good entropy")
+
+
+**Performance over 50 months 0 constraint value, and short selling permitted**
+![alt text](https://github.com/tommathewXC/EntropyOptimizedPortfolio/blob/master/pictures/norestraint.png "alpha = 0, shorting allowed")

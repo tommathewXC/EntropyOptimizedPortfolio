@@ -55,3 +55,15 @@ xlabel('Months');
 title('Growth of portfolio between 11/2011 and 12/2015 at a good entropy bound');
 legend('alpha = 0.038','Location','northoutside','Orientation','vertical');
 grid on;
+
+
+[s1, x1, xm1] = entgen( 0, M);% figure;
+t1 = size(s1);
+t1 = t1(1,1);
+t1 = 1:t1;
+plot(t1, s1/xm1, 'red');
+ylabel('Growth ratio');
+xlabel('Months startin October 2011');
+title('Growth of portfolio between 11/2011 and 12/2015 no entropy restraint');
+grid on;
+x1
